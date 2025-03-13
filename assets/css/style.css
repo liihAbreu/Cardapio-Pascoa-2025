@@ -1,0 +1,175 @@
+@import url('../Fontes/Humanst521\ BT\ Bold.ttf');
+@import url('../Fontes/Humanst521\ BT\ Bold\ Italic.ttf');
+@import url('../Fontes/Humanst521\ Lt\ BT\ Light.ttf');
+@import url('../Fontes/Humanst521\ BT\ Roman.ttf');
+@import url('../Fontes/Humanst521\ BT\ Italic.ttf');
+@import url('../Fontes/Humanst521\ Lt\ BT\ Light\ Italic.ttf');
+
+.humanst-regular {
+  font-family: "Humanst521", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.humanst-medium {
+  font-family: "Humanst521", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.humanst-semibold {
+  font-family: "Humanst521", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.humanst-bold {
+  font-family: "Humanst521", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.humanst-extrabold {
+  font-family: "Humanst521", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+body{
+    background-color: #eaddcd;
+    background-image: url("../img/fundo-pascoa.png");
+    background-position: center 30%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    font-family: "Humanst521", sans-serif;
+    color: #300202;
+    font-size: 1.3em;
+    padding: 10px;
+}
+
+.texto{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.texto-convite{
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+.texto-convite h1{
+  font-weight: bold;
+  font-size: 3em;
+  text-shadow: 1px 1px 2px #1e0404;
+  color: #300202;
+}
+
+.botao a{
+  color: white;
+  background-color: #300202;
+  width: 50%;
+  height: 100%;
+  font-size: 1.7em;;
+  font-family: "Humanst521", sans-serif;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px #1e0404;
+  border-bottom: 4px solid #1e0404;
+  border-right: 4px solid #1e0404;
+  border-radius: 5px;
+}
+
+.botao{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+.botao a:hover{
+  color: white;
+  background-color:#1e0404 ;
+  transition: 1s;
+}
+
+.texto-encomenda h2{
+  font-weight: bold;
+  text-shadow: 1px 1px 2px #1e0404;
+  color: #300202;
+  font-size: 2.5em;
+}
+
+.texto-encomenda span{
+  font-weight: bold;
+}
+
+.texto-encomenda{
+  text-align: center;
+}
+
+.redes-sociais h3{
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.redes-sociais .insta img{
+  width: 3%;
+  display: inline;
+}
+
+.redes-sociais{
+  text-align: center;
+}
+
+.redes-sociais .insta p{
+  display: inline;
+  font-weight: bold;
+}
+
+.redes-sociais .insta p a{
+  color: #300202;
+  text-decoration: none;
+}
+
+.redes-sociais .insta p a:hover{
+  color: #1e0404;
+}
+
+@media only screen and (max-width: 1044px){
+  .texto-convite h1{
+    font-size: 2.5em;
+  }
+  .botao a{
+    font-size: 1.4em;
+  }
+  .texto-encomenda h2{
+    font-size: 2em;
+  }
+}
+
+@media only screen and (max-width: 767px){
+  .texto-convite h1{
+    font-size: 2em;
+  }
+  .botao a{
+    font-size: 1em;
+  }
+  .texto-encomenda h2{
+    font-size: 1.6em;;
+  }
+}
+
+@media only screen and (max-width: 545px){
+  .texto-convite h1{
+    font-size: 1.5em;
+  }
+  .botao a{
+    font-size: 0.8em;
+    width: 100%;
+  }
+  .texto-encomenda h2{
+    font-size: 1.3em;;
+  }
+}
