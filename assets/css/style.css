@@ -172,4 +172,13 @@ body{
   .texto-encomenda h2{
     font-size: 1.3em;;
   }
+  .redes-sociais .insta img{
+    width: 5%;
+  }
+}
+
+@media only screen and (max-width: 376px){
+  .redes-sociais .insta img{
+    width: 6%;
+  }
 }
