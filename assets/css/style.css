@@ -166,7 +166,7 @@ header .logo{
 
 @media only screen and (max-width: 899px){
   .texto{
-    height: 100vh;
+    height: 90vh;
   } 
   header .logo{
     width: 20%;
@@ -197,11 +197,33 @@ header .logo{
     font-size: 1.3em;;
   }
   .redes-sociais .insta img{
-    width: 5%;
+    width: 8%;
   }
   header .logo{
     width: 25%;
   }
+  .texto-encomenda span{
+    display: block;
+  }
+  .redes-sociais .insta p a{
+    font-size: 1.3em;
+    padding-left: 1px;
+  }
+  .redes-sociais {
+    display: flex;
+     flex-direction: column;
+  }
+  .redes-sociais .insta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 425px){
+  .texto{
+    height: 95vh;
+  } 
 }
 
 @media only screen and (max-width: 376px){
@@ -211,4 +233,8 @@ header .logo{
   header .logo{
     width: 30%;
   }
+  .texto{
+    height: 100vh;
+    padding-top: 20px;
+  } 
 }
