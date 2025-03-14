@@ -48,6 +48,15 @@ body{
     padding: 10px;
 }
 
+header{
+  text-align: center;
+}
+
+header .logo{
+  width: 10%;
+  margin: auto;
+}
+
 .texto{
   display:flex;
   justify-content: center;
@@ -147,6 +156,21 @@ body{
   .texto-encomenda h2{
     font-size: 2em;
   }
+  header .logo{
+    width: 15%;
+  }
+  .texto{
+    height: 80vh;
+  }
+}
+
+@media only screen and (max-width: 899px){
+  .texto{
+    height: 100vh;
+  } 
+  header .logo{
+    width: 20%;
+  }
 }
 
 @media only screen and (max-width: 767px){
@@ -175,10 +199,16 @@ body{
   .redes-sociais .insta img{
     width: 5%;
   }
+  header .logo{
+    width: 25%;
+  }
 }
 
 @media only screen and (max-width: 376px){
   .redes-sociais .insta img{
     width: 6%;
+  }
+  header .logo{
+    width: 30%;
   }
 }
